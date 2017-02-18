@@ -1,0 +1,12 @@
+To run this software, the user has to have an up to date version of the Java Runtime environment (JRE). 
+As we know, Java is a portable programming language which can be run on multiple platforms as long as those platforms 
+have the Java Virtual Machine (JVM) which interfaces with the hardware and operating system on behalf of the software 
+programme. The latest JRE can be downloaded on the Oracle website.
+
+The spectrum analysis part of this software performs graph plotting. 
+To achieve this, a standard plotting library was imported. 
+Therefore, to run this software efficiently, the ‘Component_Toolbox_App.jar’ file must be run in a folder containing another folder 
+called ‘lib’ which has the ‘jmathplot.jar’ library in it. See figure below for details
+
+
+There is only one controller and model class serving all the views.
